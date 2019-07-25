@@ -100,7 +100,7 @@ p.big {
   }
 
   .button1:hover {
-    background:url(./GIFs/TALK-200w_d.gif) 0 0 no-repeat;
+    background:url(./gifs/TALK-200w_d.gif) 0 0 no-repeat;
     background-position: 0% 140%;
     text-align: right;
     background-color: #00CC00;
@@ -116,7 +116,7 @@ p.big {
   }
 
   .button2:hover {
-    background:url(./GIFs/LISTEN-200w_d.gif) 0 0 no-repeat;
+    background:url(./gifs/LISTEN-200w_d.gif) 0 0 no-repeat;
     background-position: 0% 135%;
     text-align: right;
     background-color: #33ccff;

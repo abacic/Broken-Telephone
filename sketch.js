@@ -33,7 +33,9 @@ function setup() {
 	speakbutton = select('#speakBtn');
 	speakbutton.mousePressed(speakSth);
 
-	createP()
+	// myRec.continuous = true;
+	// myRec.interimResults = true;
+
 	// this is showing on the screen what is being said
 	myRec.onResult = showResult;
 	// This was testing what was working or not with audio recording
@@ -59,7 +61,7 @@ function changeBackground() {
 }
 
 function changeGif() {
-	myGif.elt.src = './gifs/' + state + '.gif';
+	myGif.elt.src = '../gifs/' + state + '.gif';
 	//myGif.style('scale', 0.5);
 
 }

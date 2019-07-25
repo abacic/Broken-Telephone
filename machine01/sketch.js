@@ -59,7 +59,7 @@ function changeBackground() {
 }
 
 function changeGif() {
-	myGif.elt.src = './gifs/' + state + '.gif';
+	myGif.elt.src = './gifs01/' + state + '.gif';
 	//myGif.style('scale', 0.5);
 
 }
