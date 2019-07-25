@@ -61,7 +61,7 @@ function changeBackground() {
 }
 
 function changeGif() {
-	myGif.elt.src = './GIFs/' + state + '.gif';
+	myGif.elt.src = './gifs/' + state + '.gif';
 	//myGif.style('scale', 0.5);
 
 }
