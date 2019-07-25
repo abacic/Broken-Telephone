@@ -109,6 +109,14 @@ p.big {
     color: white;
   }
 
+  .button1:active {
+    background-color: #006600;
+    box-shadow: 0 5px #666;
+    background:url(./gifs01/TALK-200w_d.gif) 0 0 no-repeat;
+    background-position: 0% 145%;
+    transform: translateY(4px);
+  }
+
 
   .button2 {width: 400px;
     text-align: right;
@@ -123,4 +131,12 @@ p.big {
     border: 3px solid white;
     font-weight: bold;
     color: white;
+  }
+  
+  .button2:active {
+    background-color: #003d99;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    background:url(./gifs01/LISTEN-200w_d.gif) 0 0 no-repeat;
+    background-position: 0% 145%;
   }
