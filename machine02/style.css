@@ -1,0 +1,126 @@
+body {
+	font-family: Lucida Console;
+	margin-top: 200;
+	
+	padding-bottom: 500;
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Courier New;
+  font-size: 52px;
+  font-weight: bold;
+}
+
+h2 {
+    font-family: Courier New;
+    color: white;
+    padding: 8px;
+}
+
+
+h3 {
+    font-family: Courier New;
+    color: white;
+    padding: 8px;
+}
+
+#myGif {
+	width: 10%;
+}
+
+#myResult {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 776px;
+    height: 50;
+    background: black;
+    color: white;
+    text-align: left;
+}
+
+p {
+  font-family: Courier New;
+  font-style: light;
+  font-size: 18px;
+  color: white;
+}
+p.small {
+  line-height: 0.7;
+}
+
+p.sCaps {
+	font-variant: small-caps;
+}
+
+p.big {
+  line-height: 1.5;
+}
+
+  .minHeight {
+  	height: 100vh;
+  }
+
+  .container {
+    position: relative;
+  }
+  .center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .button {
+    background-color: white; 
+    border: 3px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: Courier New;
+    text-decoration:none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button1 {width: 400px;
+    text-align: right;
+    padding: 100px 100px;
+
+  }
+
+  .button1:hover {
+    background:url(./GIFs/TALK-200w_d.gif) 0 0 no-repeat;
+    background-position: 0% 140%;
+    text-align: right;
+    background-color: #00CC00;
+    border: 3px solid white;
+    font-weight: bold;
+    color: white;
+  }
+
+
+  .button2 {width: 400px;
+    text-align: right;
+    padding: 100px 80px 100px 120px
+  }
+
+  .button2:hover {
+    background:url(./GIFs/LISTEN-200w_d.gif) 0 0 no-repeat;
+    background-position: 0% 135%;
+    text-align: right;
+    background-color: #33ccff;
+    border: 3px solid white;
+    font-weight: bold;
+    color: white;
+  }
